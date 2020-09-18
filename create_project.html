@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+	
+<head> 
+	<title> 
+		Create New Project
+    </title> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="js/create project.js">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset=md-1">
+                <div class="row">
+                    <div class="col-md-5 register-left">
+                        <img src="img/logo.png">
+                        <h3>Student Project Repository</h3>
+                        <p> Amrita School of Engineering</p>
+                        <button type="button"  class="btn btn-primary"><a href="dashboard_st.html">Dashboard</a></button>
+                        <br>
+                        <button type="button"  class="btn btn-primary"onclick="myFunction()">Toggle dark mode</button>
+                    </div>
+                    <div class="col-md-7 register-right">
+                       <h2> Create new project</h2> 
+                    <form name="FormJsValid" >
+                       <div class="register-form">
+                           <div class="form-group">
+                               <input type="text" id="member" name="member" class="form-control" placeholder="Team Size">
+                               <a href="#" id="filldetails" onclick="addFields()">Fill Details</a>
+                            
+                            </div>
+                        
+                            <div class="form-group">
+                            <div  id="container">
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="guide" class="form-control" placeholder="Guide Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="domain" placeholder="Area of Research">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="topic" placeholder="Title of project">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="description" rows="10" cols="30">Enter description about the project.</textarea>
+                            </div>
+                            <div class="form-group">
+                                SOURCE CODE
+                                <input type="file" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                PLAIGARISM REPORT
+                                <input type="file" class="form-control" >
+                            </div>
+                             <button type="button" class="btn btn-primary" onclick = "validate()">Create project</button>
+                           </div>
+                       </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

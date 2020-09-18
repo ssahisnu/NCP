@@ -1,0 +1,81 @@
+.name{
+font-size: 1.5em;
+}
+h2.tagline{
+  text-align: center;
+}
+.cont{
+	background-color:black;
+	background-image: url("http://www.allwhitebackground.com/images/5/Black-Background-Picture.png");
+	/*background-image:url("https://i2.wp.com/files.123freevectors.com/wp-content/original/130852-abstract-black-and-blue-polygon-triangle-background.jpg?w=800&q=95");
+	background-image:url("https://i2.wp.com/files.123freevectors.com/wp-content/original/131661-purple-and-gold-low-poly-background-illustration.jpg?w=800&q=95");*/
+	background-size:auto;
+	
+	margin-bottom:0;
+}
+.profile{
+	border-radius: 10%;
+	max-width:100%;
+	height:170;
+}
+.profile:hover{
+  box-shadow: 0 0 100px #59405C;
+}
+p.a{
+	font-size:10em;
+}
+.imga{
+  width:200px;
+}
+.n{
+	background-color:#322f3d;
+}
+body {
+  background-color:white;
+  font-family: 'Roboto Slab';
+}
+.fakeing {
+    background: #aaa;
+  }
+.project-list{
+  padding-top: .5em;
+  padding-left: .5em;
+  text-decoration: none;
+  cursor:pointer;
+}
+.poj-dom{
+  text-transform: uppercase;
+}
+ a{
+ 	color:#322f3d;
+ }
+ a:hover{
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	color:red;
+ }
+ .footer {
+  background-color:#322f3d;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+.btnn{
+  background:#4b5d67;
+  color: white;
+}
+.btnn:hover{
+  background-color:#59405C;
+  color: black;
+}
+.footer > a{
+	color: white;
+  padding-left: 1em;
+  cursor: pointer;
+}
+.footer > a:hover{
+  color: blue;
+  cursor: pointer;
+}
+

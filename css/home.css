@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    border:0;
+   box-sizing: border-box;
+}
+.clearfix{
+    overflow: auto;
+    padding: 5em;
+  }
+.header{
+    overflow: auto;
+    background-color:#322F3D;
+    color: #ffffff;
+    cursor: pointer;
+    align-items: center;
+  }
+.logo{
+    border-radius: 50%;
+    float: left;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.title{
+    font-size: 4em;
+}
+#stufac{
+    padding-left: 42em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+.btnn{
+    background-color: #322F3D;
+    color: whitesmoke;
+    height: 7em;
+    width: 15em;
+    border-radius: 20px;
+}
+.btnn:hover{
+    background-color: #59405C;
+    color: white;
+}
+

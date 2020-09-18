@@ -1,0 +1,164 @@
+html,
+*{
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+#main-title{
+  color:#fff;
+  text-align:center;
+  background:#322f3d;
+  padding:8px;
+  height:2em;
+}
+.main-head{
+  background-color:#fafbfc;
+}
+#h001{
+  margin-left:2em;
+}
+.container {
+	position: relative;
+	left: 10%
+}
+.container .Read{
+  border-radius: 6px;
+  padding: 20px; 
+  width: 1000px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+#Read1{
+  padding: 10px;
+}
+table {
+	width: 1000px;
+	border-collapse: collapse;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+  border: 0px solid #b2b6ba;
+  border-radius: 3px;
+}
+th {
+	padding: 25px;
+	background-color: #f2f9ff;
+  border-radius: 3px;
+}
+tr:hover {
+			background-color: #f6f8fa;
+		}
+
+.main-head {
+  grid-area: header;
+text-align: left;
+  color:#0969d7;
+}
+.content {
+  grid-area: content;
+}
+.side {
+  margin-top:30px;
+  grid-area: sidebar;
+}
+.wrapper {
+	margin-left:0.5em;
+  margin-right:0.5em;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: 
+    "header"
+    "content"
+    "sidebar"
+    "footer";
+}
+
+@media (min-width: 48em) {
+  .wrapper {
+    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-areas: 
+      "header header  header"
+      "content content sidebar"
+  
+   }
+	.content{
+		float:left
+	}
+}
+
+#b001{
+  position: relative;
+  margin:5px;
+  margin: 4px 2px;
+   padding: 10px 22px;
+    cursor: pointer;
+  background:#fafbfc;
+  border-radius: 3px;
+  border: 0.001em solid #b2b6ba;
+}
+#b001:hover {
+			background-color: #f6f8fa;
+		}
+#b002{
+  margin: 4px 2px;
+  padding: 10px 22px;
+  cursor: pointer;
+  position: relative;
+  left: 69%;
+  down: 2%;
+  margin:5px;
+  border-style:none;
+  background:#2ea44f;
+  color:#ffffff;
+  border-radius: 3px;
+}
+.add{
+  border-style:none;
+}
+
+hr{
+  border: 0.001em solid #b2b6ba;
+}
+
+a:link,a:visited,a:active {
+  color:#000;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: blue;
+  text-decoration: underline;
+}
+.mem{
+  padding: 3px 5px;
+  cursor: pointer;
+  position: relative;
+  margin:5px;
+  border-style:none;
+  background:#337ab7;
+  color:#ffffff;
+  	border-radius: 3px;
+}
+.dom{
+  padding: 3px 5px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  position: relative;
+  margin:5px;
+  border-style:none;
+  background: #ff6600;
+  color:#ffffff;
+  	border-radius: 3px;
+}

@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Sign up Form-Students</title>
+    <link rel="stylesheet" href="css/login.css">
+
+  </head>
+      <body>
+        <div class="signupform">
+            <h1>Sign Up Form - Students</h1>
+            <form>
+              <input type="email" class="input-box" placeholder="Your Email">
+              <input type="password" class="input-box" placeholder="Your Password">
+              <input type="password" class="input-box" placeholder="Confirm Password">
+              <input type="number" class="input-box" placeholder="Moblile Number">
+              <input type="text" class="input-box" placeholder="Roll Number">
+              <input type="number" class="input-box" placeholder="Year of Graduation">
+              <input type="text" class="input-box" placeholder="University Name">
+              <label for="Course">Course:</label>
+              
+
+              <select name="course" id="course">
+                <option value="btech">B.Tech</option>
+                <option value="M.Tech">M.tech</option>
+                <option value="MBA">Integrated</option>
+                <option value="MBA">MBA</option>
+                <option value="BA">BA</option>
+              </select>
+              <br>
+              <label for="branch">Branch</label>
+              <select name="branch" id="course">
+                <option value="btech">CSE</option>
+                <option value="M.Tech">ECE</option>
+                <option value="MBA">EEE</option>
+                <option value="BA">E&I</option>
+                <option value="BA">Mechanical</option>
+                <option value="BA">Chemical</option>
+                <option value="BA">Physics</option>
+                <option value="MBA">Math</option>
+                <option value="MBA">Mass Communication</option>
+              </select>
+              <p><span><input type="checkbox"></span>I agree to the terms and conditions</p>
+              <button type="button" onclick="myFunction()" class="signup-btn">Sign Up</button>
+              <p>Do you have an account? <a href="fac_login.html">Login</a></p>
+              
+              
+            </form>
+        </div>
+      </body>
+      <script>
+        function myFunction() {
+          window.location.href = "dashboard_fac.html";
+        }
+        </script>
+</html>
