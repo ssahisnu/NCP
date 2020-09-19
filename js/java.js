@@ -35,6 +35,3 @@ form,addEventListner('signup-btn',(e) => {
     }
     
 })
-function myFunction() {
-    window.location.href = "dashboard_st.html";
-  }
