@@ -23,13 +23,13 @@ function complaint() {
   if (person == null || person == ""||person=="Here") {
     alertnot()
   } else {
-    alertok()
+    alertok(person)
   }
   
 }
-function alertok() {
+function alertok(person) {
   var con;
-  if (confirm("Complaint submitted")) {
+  if (confirm("Confirm conplaint\n"+person)) {
     con = 1;
   } 
   else{
@@ -38,11 +38,11 @@ function alertok() {
   
 }
 function alertnot() {
-  var conn;
+  var con2;
   if (confirm("Complaint cancelled")) {
-    conn = 1;
+    con2 = 1;
   } else {
-    conn = 0;
+    con2 = 0;
   }
   
 }

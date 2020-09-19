@@ -6,6 +6,7 @@
 .clearfix{
     overflow: auto;
     padding: 5em;
+    
   }
 .header{
     overflow: auto;
@@ -14,6 +15,7 @@
     cursor: pointer;
     align-items: center;
   }
+
 .logo{
     border-radius: 50%;
     float: left;
@@ -22,11 +24,12 @@
 }
 .title{
     font-size: 4em;
+
 }
 #stufac{
-    padding-left: 42em;
-    padding-top: 10em;
-    padding-bottom: 5em;
+    padding-left: 40%;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 .btnn{
     background-color: #322F3D;
@@ -36,7 +39,52 @@
     border-radius: 20px;
 }
 .btnn:hover{
-    background-color: #59405C;
+    background-color: #322F3D;
     color: white;
 }
+
+/* button css*/
+.btn{
+    
+    border: 2px solid #322F3D;
+    border-radius: 20px;
+    height: 7em;
+    width: 15em;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#322F3D;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+.btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: #322F3D;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .btn.btn_1:hover:after{
+    top: 20px;
+  } 
 
